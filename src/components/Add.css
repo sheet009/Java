@@ -1,0 +1,102 @@
+body, html {
+    background-color: #D3F1DF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    margin: 0;
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: Georgia;
+}
+
+.container {
+    display: block;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    margin: 50px auto;
+    text-align: center; 
+}
+
+
+.input {
+    width: 100%;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.input table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.input table tr {
+    margin-bottom: 10px;
+}
+
+.input label {
+    display: block;
+    margin-bottom: 5px; 
+    font-size: 18px;
+    font-size: 18px;
+    color: #333;
+    text-align: left;
+}
+
+.input input {
+    width: 90%;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #f7f7f7;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.input input:focus {
+    border-color: #87c99b;
+    background-color: #fff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(135, 201, 155, 0.4);
+}
+
+.input button {
+    width: 100%;
+    padding: 12px;
+    background-color: #278d45cd;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.input button:hover {
+    background-color: #6db386;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.address-card {
+    margin-bottom: 15px;
+    padding: 20px;
+    border: 2px solid #e0e0e0;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+}
+
+.fields {
+    margin: 3px 0;
+    font-size: 20px;
+    color: #333;
+    text-align: left;
+}
